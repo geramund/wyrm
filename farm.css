@@ -1,0 +1,661 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  position: relative;
+  z-index: 0;
+  color: #222222;
+  padding: 40px;
+  font-family: 'Trebuchet';
+  max-width: 100vw;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  background: rgb(149,163,151);
+  background: linear-gradient(0deg, rgba(149,163,151,1) 0%, rgba(207,207,221,1) 25%, rgba(230,219,219,1) 36%, rgba(229,242,231,1) 100%);
+}
+
+/* Background layer that always fills body height */
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(1x/farm/soil-bg.jpg);
+  opacity: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  z-index: -1;
+}
+
+@font-face {
+    font-family: 'Folkard';
+    src: url('1x/folkard_.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  .site-header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .h1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    -webkit-text-stroke: .8px rgb(0, 0, 0);
+    color: #bbbbbb;
+    margin-bottom: 10px;
+    margin-right: 770px;
+  }
+
+  h1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 10px;
+    padding: 20px;
+  }
+
+  .h1-text {
+    flex-grow: 1;
+    text-align: center;
+    font-family: 'Folkard';
+    font-size: 68px;
+  }
+
+  #farmshare {
+    font-size: 24px;
+    font-family: monospace;
+    position: absolute;
+    text-align: center;
+    top: 60px;
+    margin-left: 100px;
+    padding: 0;
+    letter-spacing: 10px;
+    color: #000000;
+    -webkit-text-stroke: 0px rgb(0, 0, 0);
+    font-weight: lighter;
+    transform: scaleY(.65) rotate(-5deg);
+  }
+
+/*.nav-link {
+    display: inline-block;
+    left: 60px;
+    bottom: 20px;
+    margin: 0px 55px;
+    cursor: pointer;
+    color: #333;
+    font-weight: normal;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.3s ease;
+    font-family: 'Trebuchet';
+    font-size: 24px;
+    letter-spacing: -.5px;
+}
+
+.nav-link.active {
+    font-weight: normal;
+    transform: rotate(2deg);
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: 8px;
+    left: 0;
+    background-color: #333;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after, .nav-link.active::after {
+    width: 100%;
+    letter-spacing: 0px;
+}*/
+
+.content-container {
+    display: none;
+}
+
+.content-container.active {
+    display: block;
+}
+  
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px 0;
+    max-width: 1400px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  .carousel-container {
+    position: relative;
+    padding: 1vw;
+    text-align: center;
+    transition: transform 0.2s;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.617);
+    top: 0px;
+    width: 600px;
+    height: 600px;
+    flex-shrink: 0;
+  }
+  
+  .carousel {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+  }
+  
+  .carousel-slide {
+    max-width: 85%;
+  }
+  
+  .carousel-slide img {
+    margin-top: 20px;
+    width: 580px;
+    height: 480px;
+    object-fit: cover;
+    padding: 15px;
+    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.699);
+    border-radius: 4px;
+    background-color: #e4e4e4;
+  }
+  
+  .carousel-btn {
+    position: absolute;
+    font-family: 'Helvetica';
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: e4e4e4;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.699);
+    -webkit-text-stroke: 1.2px rgb(0, 0, 0);
+    border-radius: 4px;
+    color: rgb(182, 182, 182);
+    border: 1px solid white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 38px;
+    z-index: 10;
+  }
+  
+  .carousel-btn.prev {
+    left: 9px;
+  }
+  
+  .carousel-btn.next {
+    right: 9px;
+  }
+
+  #farmshare-title{
+    font-size: 36px;
+    color: black;
+    margin-top: 148px;
+    font-weight: lighter;
+    font-family: Helvetica;
+    letter-spacing: 1px;
+    color: white;
+    -webkit-text-stroke: 1.8px rgb(0, 0, 0);
+    transform: scaleY(1.3);
+  }
+  
+  .signup-container {
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    padding: 1vw;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.617);
+  }
+  
+  .signup-heading {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+  
+  .signup-text {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: monospace;
+    line-height: 1.1;
+    text-align: left;
+    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.699);
+    padding: 20px;
+    font-size: 13px;
+    border-radius: 12px;
+    background-color: rgba(182, 182, 182, 0.235);
+  }
+  
+  .signup-button {
+    font-family: Helvetica;
+    margin-top: 8px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.699);
+    border: none;
+    border-radius: 12px;
+    background: #f5f5f5;
+    color: rgb(182, 182, 182);
+    -webkit-text-stroke: 1.1px rgb(0, 0, 0);
+    font-weight: lighter;
+    letter-spacing: 4px;
+    transform: scaleY(1.35);
+  }
+
+  .sticker {
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    margin-bottom: 10px;
+    border: dashed 1px #000000;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 2px 1px hsla(0, 0%, 0%, 0.25);
+    -moz-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.25);    
+    z-index: 100;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    overflow: hidden;
+  }
+
+  .sticker:hover {
+    transform: rotate(0) scale(1.1);
+  }
+
+  .sticker-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: .8;
+    padding: 10px;
+    transform: rotate(0);
+  }
+
+  .sticker-title {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+    margin-top: -10px;
+    margin-bottom: -5px;
+    text-transform: uppercase;
+    transform: scaleY(.6);
+  }
+
+  .sticker-detail {
+    font-family: monospace;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    transform: scaleY(.8);
+    letter-spacing: -2px;
+  }
+
+  .sticker-yellow {
+    background: linear-gradient(135deg, #ffed4d, #ebdb47);
+    margin-left: -350px;
+  }
+  
+  .sticker-blue {
+    background: linear-gradient(135deg, #ffc851, #f3a13c);
+    margin-left: -50px;
+  }
+
+  .sticker-purple {
+    background: linear-gradient(135deg, #f154ff, #d447e1);
+    margin-left: 250px;
+  }
+  
+  .sticker-red {
+    background: linear-gradient(135deg, #ff3964, #e7325a);
+    margin-left: 550px;
+  }
+  
+  .sticker-green {
+    background: linear-gradient(135deg, #87ff4b, #81e94d);
+    margin-left: 850px;
+  }
+  
+  .sticker-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .sticker-popup {
+    position: relative;
+    width: 500px;
+    max-width: 90%;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    color: black;
+    font-family: 'Trebuchet';
+  }
+  
+  .sticker-popup-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'monospace';
+    text-align: center;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    color: white;
+  }
+  
+  .sticker-popup-content {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-family: monospace;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.5);
+  }
+  
+  .sticker-popup-close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    transition: transform 0.3s ease;
+  }
+  
+  .sticker-popup-close:hover {
+    transform: rotate(90deg);
+  }
+  
+  footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    -webkit-text-stroke: .2px rgb(0, 0, 0);
+  }
+  
+  @media (min-width: 767px) and (max-width: 1142px) {
+    main {
+      gap: 10px;
+    }
+    
+    .h1-container {
+      margin-right: 560px;
+    }
+
+    .h1-text {
+      font-size: 50px;
+    }
+
+    #farmshare {
+      font-size: 24px;
+      top: 50px;
+    }
+
+    .carousel-container{
+      width: 422px;
+    }
+
+    .signup-container{
+      width: 250px;
+    }
+
+    #farmshare-title{
+      margin-top: 155px;
+      font-size: 24px;
+      -webkit-text-stroke: 1.2px rgb(0, 0, 0);
+    }
+
+    .carousel-btn{
+      font-size: 22px;
+    }
+
+    .carousel-btn.prev {
+      left: 4px;
+    }
+
+    .carousel-btn.next {
+      right: 4px;
+    }
+
+    .signup-heading {
+      line-height: 26px;
+      text-align: left;
+    }
+
+    .signup-text {
+      font-size: 11px;
+      margin-left: 5px;
+      margin-right: 5px;
+      padding: 16px;
+      padding-top: 18px;
+      padding-bottom: 18px;
+    }
+
+    .signup-button {
+      font-size: 14px;
+      margin-top: 6px;
+      -webkit-text-stroke: .8px rgb(0, 0, 0);
+    }
+
+    .sticker {
+      height: 50px;
+      width: 100px;
+      margin-bottom: 10px;
+    }
+
+    .sticker-title {
+      font-size: 22px;
+    }
+
+    .sticker-detail {
+      font-size: 20px;
+    }
+
+    .sticker-yellow {
+      margin-left: -240px;
+    }
+
+    .sticker-blue {
+      margin-left: -20px;
+    }
+
+    .sticker-purple {
+      margin-left: 200px;
+    }
+
+    .sticker-red {
+      margin-left: 420px;
+    }
+
+    .sticker-green {
+      margin-left: 640px;
+    }
+  }
+
+  @media (max-width: 768px) {
+
+    main {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    body {
+      padding: 20px;
+    }
+
+    .h1-container {
+      margin-right: 140px;
+    }
+
+    .h1-text {
+      font-size: 50px;
+    }
+
+    #farmshare {
+      font-size: 24px;
+      top: 50px;
+    }
+
+    #farmshare-title{
+      margin-top: 155px;
+      font-size: 24px;
+      -webkit-text-stroke: 1.2px rgb(0, 0, 0);
+    }
+    
+    .carousel-container, .signup-container {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .carousel-container {
+      height: 500px;
+      width: 350px;
+      margin-top: 40px;
+    }
+    
+    .carousel-slide img {
+      height: 390px;
+    }
+    
+    .carousel-btn{
+      font-size: 12px;
+    }
+
+    .carousel-btn.prev {
+      left: 2px;
+    }
+
+    .carousel-btn.next {
+      right: 2px;
+    }
+
+    #farmshare-title{
+      margin-top: 58px;
+      font-size: 18px;
+    }
+    
+    .signup-container {
+      width: 350px;
+    }
+
+    .signup-heading {
+      line-height: 26px;
+      text-align: left;
+    }
+
+    .signup-text {
+      font-size: 13px;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 16px;
+      padding-top: 18px;
+      padding-bottom: 18px;
+    }
+
+    .signup-button {
+      font-size: 18px;
+      margin-top: 4px;
+    }
+
+    .sticker {
+      width: 70px;
+      height: 40px;
+      margin-top: 160px;
+    }
+    
+    .sticker-title {
+      font-size: 18px;
+    }
+    
+    .sticker-detail {
+      font-size: 14px;
+    }
+    
+    /* Adjust positions for mobile */
+    .sticker-yellow {
+      margin-left: -300px;
+    }
+    
+    .sticker-blue {
+      margin-left: -150px;
+    }
+    
+    .sticker-purple {
+      margin-left: 0px;
+    }
+
+    .sticker-red {
+      margin-left: 150px;
+    }
+
+    .sticker-green {
+      margin-left: 300px;
+    }
+
+    .sticker-popup {
+      padding: 20px;
+      max-width: 85%;
+    }
+    
+    .sticker-popup-title {
+      font-size: 28px;
+    }
+    
+    .sticker-popup-content {
+      font-size: 16px;
+      padding: 15px;
+    }
+  }
