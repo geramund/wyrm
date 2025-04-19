@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
             description: 'Grow Babies Grow!'
         },
         {
-            src: '1x/farm/veg6.jpg',
+            src: '1x/farm/veg6.JPG',
             description: 'Herbs Stay Indoors'
         },
     ];
