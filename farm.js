@@ -23,12 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
             description: 'Lights, Camera, Patty Pan!'
         },
         {
-            src: '1x/farm/veg4.jpeg',
-            description: 'Fields In Action'
-        },
-        {
             src: '1x/farm/veg5.jpeg',
-            description: 'Grow Babies Grow!'
+            description: 'Fields in Action'
         },
         {
             src: '1x/farm/veg6.JPG',
@@ -87,27 +83,27 @@ document.addEventListener('DOMContentLoaded', function() {
     const stickerInfo = {
       'sticker-1': {
         title: 'CLEAN FARMING',
-        content: 'On insensible possession oh particular attachment at excellence in. The books arose but miles happy she. It building contempt or interest children mistress of unlocked no. Offending she contained mrs led listening resembled. Delicate marianne absolute men dashwood landlord and offended. Suppose cottage between and way. Minuter him own clothes but observe country. Agreement far boy otherwise rapturous incommode favourite.',
+        content: 'Wyrm farms using organic methods. We grow our vegetables at a hand-scale, without sprays, on permanent raised beds and use a combination of compost, cover crops, and crop rotations to protect and improve soil health.\n\n All of our produce is harvested within a day or two of delivery to ensure peak freshness and flavor.',
         color: 'linear-gradient(135deg, #ff3964, #e7325a)'
       },
       'sticker-2': {
         title: 'WEEKLY HARVEST',
-        content: 'Prevailed sincerity behaviour to so do principle mr. As departure at no propriety zealously my. On dear rent if girl view. First on smart there he sense. Earnestly enjoyment her you resources. Brother chamber ten old against. Mr be cottage so related minuter is. Delicate say and blessing ladyship exertion few margaret. Delight herself welcome against smiling its for. Suspected discovery by he affection household of principle perfectly he.',
+        content: 'Each week of Wyrm’s CSA share includes a selection of leafy greens, fruiting vegetables, alliums, and root vegetables, enough produce to feed two or more people:\n\nExample Shares:\n\nJuly\nLettuce: Bibb\nGreens: Bok Choy\nHerbs: Dill\nFruits: Broccoli\nFruits: Green Beans\nAlliums: Scallions\nRoots: Turnip\nRoots: Beets\n\nAugust\nLettuce: Romaine\nGreens: Salad Greens\nHerbs: Dill\nFruits: Sweet Peppes\nFruits: Tomatoes\nFruits: Cucumbers\nAlliums: Fresh Onion\nRoots: Carrots\n\nSeptember\nLettuce: Bibb\nGreens:Kale\nHerbs: Parsley\nFruits: Eggplant\nFruits: Hot Peppers\nFruits: Zucchini\nAlliums: Cured Onions\nRoots: Winter Squash',
         color: 'linear-gradient(135deg, #ffed4d, #ebdb47)'
       },
       'sticker-3': {
         title: 'HUDSON VALLEY GROWN',
-        content: 'Examine she brother prudent add day ham. Far stairs now coming bed oppose hunted become his. You zealously departure had procuring suspicion. Books whose front would purse if be do decay. Quitting you way formerly disposed perceive ladyship are. Common turned boy direct and yet.',        
+        content: 'Our one acre of farmland runs along the Claverack Creek in Hudson, New York. The site has been kept in organic rotation over the past decade; over the past three years, Wyrm has transitioned our farm to a no-till system.',        
         color: 'linear-gradient(135deg, #87ff4b, #81e94d)'
       },
       'sticker-4': {
         title: 'EAST VILLAGE PICKUP',
-        content: 'Are sentiments apartments decisively the especially alteration. Thrown shy denote ten ladies though ask saw. Or by to he going think order event music. Incommode so intention defective at convinced. Led income months itself and houses you. After nor you leave might share court balls.',
+        content: 'We deliver our vegetable CSA to Swiss Institute in New York, New York every Sunday from June 29, 2025 - October 5, 2025 from 1:00pm to 3:00pm. /n/n Hungry for more Wyrm!? Our vegetables are also available every Saturday morning from May - October at the Kinderhook Farmers Market in Kinderhook, New York.',
         color: 'linear-gradient(135deg, #ffc851, #f3a13c)'
       },
       'sticker-5': {
         title: 'PRICING DETAILS',
-        content:'Living valley had silent eat merits esteem bed. In last an or went wise as left. Visited civilly am demesne so colonel he calling. So unreserved do interested increasing sentiments. Vanity day giving points within six not law. Few impression difficulty his use has comparison decisively.',
+        content:'Each Wyrm CSA share is $650, or $43/week, and feeds 2+ people. Members who sign up before May 31, 2025 pay a reduced price of $550, or $36/week. \n\n Wyrm CSA membership includes:\n-15 weeks of local produce, sufficient for 2+ people\n-A subscription to Wyrm Magazine\n-Assorted recipe cards and other printed materials\n\nWyrm places emphasis on our CSA—an acronym for Community Supported Agriculture—because it is the most ethical mode of distribution for our produce. As a CSA member, you receive your vegetables directly from our farm for below market price. In turn, our farm benefits from your season-long commitment.',
         color: 'linear-gradient(135deg, #f154ff, #d447e1)'
       }
     };
