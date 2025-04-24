@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             src: '1x/farm/veg6.JPG',
-            description: 'Herbs Stay Indoors'
+            description: 'Seedlings Stay Indoors'
         },
     ];
     
