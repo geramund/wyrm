@@ -260,7 +260,7 @@ body::before {
   
   .signup-button {
     font-family: Helvetica;
-    margin-top: 8px;
+    margin-top: 10px;
     font-size: 20px;
     transition: all 0.3s ease;
     cursor: pointer;
