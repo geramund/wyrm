@@ -358,6 +358,10 @@ body::before {
     background: linear-gradient(135deg, #87ff4b, #81e94d);
     margin-left: 850px;
   }
+
+  .special-line {
+    margin-bottom: -5px;
+  }
   
   .sticker-popup-overlay {
     position: fixed;
@@ -529,6 +533,10 @@ body::before {
     .sticker-green {
       margin-left: 640px;
     }
+
+    .special-line {
+      margin-bottom: -5px;
+    }
   }
 
   @media (max-width: 768px) {
@@ -640,6 +648,7 @@ body::before {
     }
     
     .sticker-title {
+      margin-top: -3px;
       font-size: 18px;
     }
     
@@ -666,6 +675,10 @@ body::before {
 
     .sticker-green {
       margin-left: 300px;
+    }
+
+    .special-line {
+      margin-bottom: -4px;
     }
 
     .sticker-popup {

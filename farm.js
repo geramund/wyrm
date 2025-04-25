@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       'sticker-4': {
         title: 'EAST VILLAGE PICKUP',
-        content: 'We deliver our vegetable CSA to Swiss Institute in New York, New York every Sunday from June 29, 2025 - October 5, 2025 from 1:00pm to 3:00pm. /n/n Hungry for more Wyrm!? Our vegetables are also available every Saturday morning from May - October at the Kinderhook Farmers Market in Kinderhook, New York.',
+        content: 'We deliver our vegetable CSA to Swiss Institute in New York, New York every Sunday from June 29, 2025 - October 5, 2025 from 1:00pm to 3:00pm. \n\n Hungry for more Wyrm!? Our vegetables are also available every Saturday morning from May - October at the Kinderhook Farmers Market in Kinderhook, New York.',
         color: 'linear-gradient(135deg, #ffc851, #f3a13c)'
       },
       'sticker-5': {
