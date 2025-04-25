@@ -16,7 +16,11 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             src: '1x/farm/veg2.jpeg',
-            description: 'Sample Share Size'
+            description: 'Sample Shares'
+        },
+        {
+          src: '1x/farm/veg7.jpg',
+          description: 'Hello Beautiful'
         },
         {
             src: '1x/farm/veg3.jpg',
@@ -30,6 +34,10 @@ document.addEventListener('DOMContentLoaded', function() {
             src: '1x/farm/veg6.JPG',
             description: 'Seedlings Stay Indoors'
         },
+        {
+          src: '1x/farm/veg8.JPG',
+          description: 'Work Hard Eat Fresh'
+      },
     ];
     
     // Set initial image and description
