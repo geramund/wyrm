@@ -96,7 +96,49 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       'sticker-2': {
         title: 'WEEKLY HARVEST',
-        content: 'Each week of Wyrm’s CSA share includes a selection of leafy greens, fruiting vegetables, alliums, and root vegetables, enough produce to feed two or more people:\n\nExample Shares:\n\nJuly\nLettuce: Bibb\nGreens: Bok Choy\nHerbs: Dill\nFruits: Broccoli\nFruits: Green Beans\nAlliums: Scallions\nRoots: Turnip\nRoots: Beets\n\nAugust\nLettuce: Romaine\nGreens: Salad Greens\nHerbs: Dill\nFruits: Sweet Peppes\nFruits: Tomatoes\nFruits: Cucumbers\nAlliums: Fresh Onion\nRoots: Carrots\n\nSeptember\nLettuce: Bibb\nGreens:Kale\nHerbs: Parsley\nFruits: Eggplant\nFruits: Hot Peppers\nFruits: Zucchini\nAlliums: Cured Onions\nRoots: Winter Squash',
+        content: "<p>Each week of Wyrm's CSA share includes a selection of leafy greens, fruiting vegetables, alliums, and root vegetables, enough produce to feed two or more people:</p>" +
+          '<h3>Example Shares:</h3>' +
+          '<div class="harvest-examples">' +
+            '<div class="harvest-column">' +
+              '<h4>July</h4>' +
+              '<ul>' +
+                '<li>Lettuce: Bibb</li>' +
+                '<li>Greens: Bok Choy</li>' +
+                '<li>Herbs: Dill</li>' +
+                '<li>Fruits: Broccoli</li>' +
+                '<li>Fruits: Green Beans</li>' +
+                '<li>Alliums: Scallions</li>' +
+                '<li>Roots: Turnip</li>' +
+                '<li>Roots: Beets</li>' +
+              '</ul>' +
+            '</div>' +
+            '<div class="harvest-column">' +
+              '<h4>August</h4>' +
+              '<ul>' +
+                '<li>Lettuce: Romaine</li>' +
+                '<li>Greens: Salad Greens</li>' +
+                '<li>Herbs: Dill</li>' +
+                '<li>Fruits: Sweet Peppers</li>' +
+                '<li>Fruits: Tomatoes</li>' +
+                '<li>Fruits: Cucumbers</li>' +
+                '<li>Alliums: Fresh Onion</li>' +
+                '<li>Roots: Carrots</li>' +
+              '</ul>' +
+            '</div>' +
+            '<div class="harvest-column">' +
+              '<h4>September</h4>' +
+              '<ul>' +
+                '<li>Lettuce: Bibb</li>' +
+                '<li>Greens: Kale</li>' +
+                '<li>Herbs: Parsley</li>' +
+                '<li>Fruits: Eggplant</li>' +
+                '<li>Fruits: Hot Peppers</li>' +
+                '<li>Fruits: Zucchini</li>' +
+                '<li>Alliums: Cured Onions</li>' +
+                '<li>Roots: Winter Squash</li>' +
+              '</ul>' +
+            '</div>' +
+          '</div>',
         color: 'linear-gradient(135deg, #ffed4d, #ebdb47)'
       },
       'sticker-3': {

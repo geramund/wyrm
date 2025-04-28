@@ -378,7 +378,7 @@ body::before {
   
   .sticker-popup {
     position: relative;
-    width: 500px;
+    width: 600px;
     max-width: 90%;
     padding: 30px;
     border-radius: 16px;
@@ -433,6 +433,41 @@ body::before {
     color: #ffffff;
     -webkit-text-stroke: .2px rgb(0, 0, 0);
     z-index: 2;
+  }
+
+  /* Styling for harvest example columns */
+  .harvest-examples {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+
+  .harvest-column {
+    flex: 1;
+    min-width: 100px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 12px;
+  }
+
+  .harvest-column h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding-bottom: 5px;
+  }
+
+  .harvest-column ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+  }
+
+  .harvest-column li {
+    margin-bottom: 5px;
+    font-size: 0.9em;
   }
   
   @media (min-width: 767px) and (max-width: 1142px) {
