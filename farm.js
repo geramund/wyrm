@@ -31,11 +31,11 @@ document.addEventListener('DOMContentLoaded', function() {
             description: 'Fields in Action'
         },
         {
-            src: '1x/farm/veg6.jpg',
+            src: '1x/farm/veg6.JPG',
             description: 'Seedlings Stay Indoors'
         },
         {
-          src: '1x/farm/veg8.jpg',
+          src: '1x/farm/veg8.JPG',
           description: 'Work Hard Eat Fresh'
       },
     ];
