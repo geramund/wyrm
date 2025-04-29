@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
             description: 'Fresh Veg Calls, You Picking Up?'
         },
         {
-            src: '1x/farm/veg2.jpeg',
+            src: '1x/farm/veg2.jpg',
             description: 'Sample Shares'
         },
         {
@@ -27,15 +27,15 @@ document.addEventListener('DOMContentLoaded', function() {
             description: 'Lights, Camera, Patty Pan!'
         },
         {
-            src: '1x/farm/veg5.jpeg',
+            src: '1x/farm/veg5.jpg',
             description: 'Fields in Action'
         },
         {
-            src: '1x/farm/veg6.JPG',
+            src: '1x/farm/veg6.jpg',
             description: 'Seedlings Stay Indoors'
         },
         {
-          src: '1x/farm/veg8.JPG',
+          src: '1x/farm/veg8.jpg',
           description: 'Work Hard Eat Fresh'
       },
     ];
