@@ -33,6 +33,11 @@ body::before {
   z-index: 1;
 }
 
+a {
+  color: white;
+  text-decoration: underline white;
+}
+
 @font-face {
     font-family: 'Folkard';
     src: url('1x/folkard_.ttf');
