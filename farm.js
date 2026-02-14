@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const slides = [
         {
             src: '1x/farm/veg1.jpg',
-            description: 'Fresh Veg Calls, You Picking Up?'
+            description: 'Fresh Vegetables Every Week!'
         },
         {
             src: '1x/farm/veg2.jpg',
