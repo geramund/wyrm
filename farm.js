@@ -147,8 +147,8 @@ document.addEventListener('DOMContentLoaded', function() {
         color: 'linear-gradient(135deg, #87ff4b, #81e94d)'
       },
       'sticker-4': {
-        title: 'EAST VILLAGE PICKUP',
-        content: 'We deliver our vegetable CSA to Swiss Institute in New York, New York every Sunday from June 29, 2025 - October 5, 2025 from 1:00pm to 3:00pm. \n\n Hungry for more Wyrm!? Our vegetables are also available every Saturday morning from May - October at the Kinderhook Farmers Market in Kinderhook, New York.',
+        title: 'CATSKILL PICKUP',
+        content: 'We deliver our vegetable CSA to 27 Cafe in Catskill, New York. The address is 18 West Bridge Street.\n\n Pickups occur every Sunday from June 20, 2026 - September 26, 2026 from 1:00pm to 3:00pm.',
         color: 'linear-gradient(135deg, #ffc851, #f3a13c)'
       },
       'sticker-5': {

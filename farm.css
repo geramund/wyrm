@@ -476,7 +476,7 @@ a {
     font-size: 0.9em;
   }
   
-  @media (min-width: 767px) and (max-width: 1142px) {
+  @media (min-width: 810px) and (max-width: 1185px) {
     main {
       gap: 10px;
     }
@@ -580,7 +580,7 @@ a {
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 810px) {
 
     main {
       flex-direction: column;
