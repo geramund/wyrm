@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       'sticker-5': {
         title: 'PRICING DETAILS',
-        content:'Each Wyrm CSA share is $650, or $43/week, and feeds 2+ people. Members who sign up before May 31, 2025 pay a reduced price of $550, or $36/week. \n\n Wyrm CSA membership includes:\n-15 weeks of local produce, sufficient for 2+ people\n-A subscription to Wyrm Magazine\n-Assorted recipe cards and other printed materials\n\nWyrm places emphasis on our CSA—an acronym for Community Supported Agriculture—because it is the most ethical mode of distribution for our produce. As a CSA member, you receive your vegetables directly from our farm for below market price. In turn, our farm benefits from your season-long commitment.',
+        content:'Each Wyrm CSA share is $600, or $40/week, and feeds 2+ people. \n\n Wyrm CSA membership includes:\n-15 weeks of local produce, sufficient for 2+ people\n-A subscription to Wyrm Magazine\n-Assorted recipe cards and other printed materials\n\nWyrm places emphasis on our CSA—an acronym for Community Supported Agriculture—because it is the most ethical mode of distribution for our produce. As a CSA member, you receive your vegetables directly from our farm for below market price. In turn, our farm benefits from your season-long commitment.',
         color: 'linear-gradient(135deg, #f154ff, #d447e1)'
       }
     };
