@@ -243,7 +243,7 @@ h3 {
     line-height: 60px;
     font-size: 25px;
     white-space: pre-wrap;
-    top: 160px;
+    top: 60px;
     left: 40px;
 }
 
@@ -264,7 +264,7 @@ h3 {
 .popup-description {
     position: absolute;
     display: block;
-    top: 360px;
+    top: 280px;
     left: 40px;
     margin-right: 520px;
     line-height: 30px;
