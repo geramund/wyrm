@@ -240,10 +240,10 @@ h3 {
 .popup-specifications{
     position: absolute;
     display: block;
-    line-height: 60px;
+    line-height: 30px;
     font-size: 25px;
     white-space: pre-wrap;
-    top: 60px;
+    top: 145px;
     left: 40px;
 }
 

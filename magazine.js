@@ -28,7 +28,7 @@ function adjustGridColumns() {
     if (window.innerWidth <= 767) {
         columns = 2;
     } else {
-        columns = Math.floor(window.innerWidth / 300);
+        columns = 3;
     }
 
     gridContainer.style.gridTemplateColumns = `repeat(${columns}, 1fr)`;
@@ -51,7 +51,7 @@ const buttonsData = [
         dateAdded: '09-28-2026',
         coverImage: '1x/magazine/cover4.png',
         images: ['1x/magazine/cover4.png'],
-        description: "Contributions by Jane Balfus, Joseph Buckley, Kelley Dong, Eddie Hopely, Dean Moss, Ryan D. Petersen, and Jane Schoenbrun.\n\nCover by Stewart Bird.\n\nGuest edited by J. Gordon Faylor.",            
+        description: "Contributers:\nJane Balfus, Stewart Bird, Joseph Buckley, Kelley Dong, Eddie Hopely, Dean Moss, Ryan D. Petersen, and Jane Schoenbrun.\n\nGuest edited by J. Gordon Faylor.",            
         price: "$15.00",
         buylink: "https://buy.stripe.com/cNi8wP1qNdPv40L0ZhdZ60b",
         new: "false",
@@ -66,7 +66,7 @@ const buttonsData = [
         dateAdded: '01-01-2025',
         coverImage: '1x/magazine/cover3.png',
         images: ['1x/magazine/cover3.png'],
-        description: "Contributions by Joseph Buckley, Claire Dougherty, Ben Roylance, Jasper Spicero, Lillian Paige Walton and Souchou Yao.\n\nCover by Wretched Worm.",            
+        description: "Contributers:\nJoseph Buckley, Claire Dougherty, Ben Roylance, Jasper Spicero, Lillian Paige Walton, Wretched Worm, and Souchou Yao.",            
         price: "$15.00",
         buylink: "https://buy.stripe.com/14k5mQ8xrcAw4OQfZ0",
         new: "false",
@@ -81,7 +81,7 @@ const buttonsData = [
         dateAdded: '??-??-????',
         coverImage: '1x/magazine/cover2.png',
         images: ['1x/magazine/cover2.png'],
-        description: "Contributions by Joseph Buckley, Samuel R. Delany, Alex Luis Freundlich, Ed Halter, Anastasios Karnazes, Dorothea Lasky, Willa Smart, and Theodore Sturgeon.\n\nImages by Michael Bussell and Wretched Worm.\n\nCover by Heartlocket.",
+        description: "Contributers:\nJoseph Buckley, Michael Bussell, Samuel R. Delany, Alex Luis Freundlich, Ed Halter, Heartlocket, Anastasios Karnazes, Dorothea Lasky, Willa Smart, Theodore Sturgeon, and Wretched Worm.",
         price: "$15.00",
         buylink: "inserturl",
         new: "false",
@@ -96,7 +96,7 @@ const buttonsData = [
         dateAdded: '07-04-2024',
         coverImage: '1x/magazine/cover1.png',
         images: ['1x/magazine/cover1.png'],
-        description: "Contributions by Alyssa Moore, Brandon Shimoda, Er Linsker, Filip Marinovich, Imani Elizabeth Jackson, J. Gordon Faylor, Mark von Schlegell, Morgan Vo, Oli Hazzard, & Terrence Arjoon.\n\nImages by Farnoosh Fathi.\n\nCover by Heartlocket.",
+        description: "Contributers:\nTerrence Arjoon, Farnoosh Fathi, J. Gordon Faylor, Oli Hazzard, Heartlocket, Imani Elizabeth Jackson, Er Linsker, Filip Marinovich, Alyssa Moore, Mark von Schlegell, Brandon Shimoda, and Morgan Vo.",
         price: "$15.00",
         buylink: "inserturl",
         new: "false",
