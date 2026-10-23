@@ -54,10 +54,10 @@ const buttonsData = [
         description: "Contributers:\nJane Balfus, Stewart Bird, Joseph Buckley, Kelley Dong, Eddie Hopely, Dean Moss, Ryan D. Petersen, and Jane Schoenbrun.\n\nGuest edited by J. Gordon Faylor.",            
         price: "$15.00",
         buylink: "https://buy.stripe.com/cNi8wP1qNdPv40L0ZhdZ60b",
-        new: "false",
+        new: "true",
         sale: "false",
         outofstock: "false",
-        preorder: "true",
+        preorder: "false",
         game: "false"
     },
     ,{
