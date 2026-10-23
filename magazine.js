@@ -53,7 +53,7 @@ const buttonsData = [
         images: ['1x/magazine/cover4.png'],
         description: "Contributers:\nJane Balfus, Stewart Bird, Joseph Buckley, Kelley Dong, Eddie Hopely, Dean Moss, Ryan D. Petersen, and Jane Schoenbrun.\n\nGuest edited by J. Gordon Faylor.",            
         price: "$15.00",
-        buylink: "https://buy.stripe.com/cNi8wP1qNdPv40L0ZhdZ60b",
+        buylink: "https://buy.stripe.com/00w8wPd9vcLrdBl8rJdZ60c",
         new: "true",
         sale: "false",
         outofstock: "false",
